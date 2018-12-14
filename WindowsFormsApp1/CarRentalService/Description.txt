@@ -1,0 +1,5 @@
+Jag har valt att använde mig av NetTcpBinding och wsHttpBinding i det här projektet.
+WCF Servicen körs genom Console Application Self-hosting då projektet inte är jättestort och till fördel varit enkelt att jobba med.
+Har valt att använda två interfaces: ICarRentalService & IREST för att skilja de åt med Api:et.
+Api:et valde jag att ha med olika metoder där man använder åtminstone ett eller fler av GET, PUT, POST, DELETE.
+
